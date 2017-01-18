@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -10em;
+}
+.footer, .push {
+  height: 10em;
+}
+
+.footer {
+  background-color: #3b3b3b;
+}
+
+.word{
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.img{
+  padding-top: 40px;
+  padding-bottom: 40px; 
+}

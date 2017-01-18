@@ -1,0 +1,35 @@
+#rc-imageselect, .g-recaptcha {
+	transform:scale(0.96);
+	-webkit-transform:scale(0.96);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+}
+
+
+@media screen and (max-height: 575px){
+	#rc-imageselect, .g-recaptcha {
+		transform:scale(0.73);
+		-webkit-transform:scale(0.73);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+	}
+}
+
+.ea{
+  animation: af ease-out 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 32px 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
+@keyframes af{
+  0% {
+    transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  50% {
+    transform:  translate(calc(100% - 64px),0px)  rotate(720deg) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+}
