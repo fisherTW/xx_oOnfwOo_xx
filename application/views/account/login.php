@@ -31,7 +31,6 @@
 <body class="login">
 	<!-- BEGIN LOGO -->
 	<div class="logo">
-		<!-- PUT YOUR LOGO HERE -->
 	</div>
 	<!-- END LOGO -->
 	<!-- BEGIN LOGIN -->
@@ -39,8 +38,10 @@
 		<!-- BEGIN LOGIN FORM -->
 		<form class="form-vertical login-form" id="form1" method="post">
 			<input type='hidden' id='baseUrl' value='<?= base_url()?>'>
-
-			<h3 class="form-title">Fisher System</h3>
+			<div class="text-center">
+				<img src="http://placekitten.com/g/150/260">
+			</div>
+			<h3 class="form-title text-center">查詢系統</h3>
 			<div class="alert alert-error hide">
 				<button class="close" data-dismiss="alert"></button>
 				<span>Enter any username and password.</span>

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:400);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
 /* logo page */
 .login {
@@ -65,12 +65,9 @@
 }
 
 .login .content .form-title {
-/*
-  font-weight: 300;
- */
   color: #ff7400;
   font-size: 45px;
-  font-family: 'Exo 2', sans-serif;    
+  font-family: 'cwTeXFangSong', serif; 
   text-shadow: 1px 1px 0 #ffffff;
   margin-bottom: 25px;
 }
