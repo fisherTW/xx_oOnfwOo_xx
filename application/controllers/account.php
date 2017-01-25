@@ -104,6 +104,7 @@ class Account extends CI_Controller {
 		if($this->session->userdata('account') === FALSE) {
 			show_error('',401);
 		}
+		$data['lang'] = $this->lang;		
 		$data['title'] = 'Change Password';
 		$data['account'] = $this->session->userdata('account');
 
@@ -114,10 +115,11 @@ class Account extends CI_Controller {
 	}
 
 	public function doChangePassword() {
+
 		$data = array(
 			'password' => $this->input->post('txt_confirmNewPassword')
 		);
-		$ary_where = array('company_id' => $this->session->userdata('company_id'), 'account' => $this->session->userdata('account'));
+		$ary_where = array('company_id' => 1, 'account' => $this->session->userdata('account'));
 		$this->db->where($ary_where);
 		$this->db->update('user', $data);
 

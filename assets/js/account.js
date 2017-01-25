@@ -58,7 +58,7 @@ $(function(){
 			statusCode:{
 				200:function(data){
 					alert('密碼已變更完成!!'); 
-					window.location = baseurl + 'news/showNewsList';
+					window.location = baseurl + '/welcome';
 				}
 			},
 			error:function(){	
