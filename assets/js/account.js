@@ -140,7 +140,7 @@ $(function(){
 	});		
 
 	$(".gohome").bind("click",function(){
-		window.location = baseurl + 'news/showNewsList';
+		window.location = baseurl + 'welcome';
 	});
 
 
