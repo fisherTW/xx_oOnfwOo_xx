@@ -82,7 +82,7 @@ define('WORKER_KIND_POINT',			'3');
 define('WORKER_KIND_POINT_RETURN',	'4');
 define('WORKER_KIND_DIRECT',		'5');
 
-define('KEY_GOOGLE_CAPTCHA', '6Lf87RkTAAAAANeWZl6xlLUep105FX2WnPUEWRmd');
+define('KEY_GOOGLE_CAPTCHA', '6LfwBQgTAAAAAB2KOjOzXYbgNRwOZlyyPmAyftlv');
 define('URL_GOOGLE_CAPTCHA', 'https://www.google.com/recaptcha/api/siteverify');
 
 define('JSON_NETWORK_TYPE',json_encode(array(

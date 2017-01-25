@@ -67,7 +67,7 @@
 			</div>
 			<div class="control-group">
 				<div class="controls">
-					<div class="g-recaptcha" data-sitekey="6Lf87RkTAAAAAEskJNy2Y8SAZgzj_X87_LeTJ7jZ"></div>
+					<div class="g-recaptcha" data-sitekey="6LfwBQgTAAAAABHY3S-tCzyET_wfOnDRpMl99GyX"></div>
 				</div>
 			</div>
 			<div class="form-actions">
